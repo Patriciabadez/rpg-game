@@ -10,3 +10,13 @@ top: ${props => props.top}px;
 background-image: url('/assets/char.png');
 background-position:0px ${props => props.sidePos}px;
 `;
+
+export const NameBox = styled.div`
+background-color: #000;
+padding: 3px;
+border-radius: 5px;
+position: 10px;
+font-size: 10px;
+text-align: center;
+margin-top: -20px;
+`
